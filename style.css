@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+.center {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  color: white;
+  background-color: black;
+  text-decoration: underline solid rgb(68, 133, 68);
+  text-align: center;
+}
+h2,p {
+  text-align: center;
+  color: aqua;
+}
+.image-container{
+    display: flex;
+    gap: 2rem;
+}
+img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+    .image-container {
+      flex-direction: column;
+    }
+}
+.footer h1 a{
+  color: gray;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px white;
+}
